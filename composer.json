@@ -1,0 +1,48 @@
+{
+    "name": "portphp/xml-adapter",
+    "description": "XML writer for Port",
+    "license": "MIT",
+    "homepage": "https://github.com/portphp",
+    "authors": [
+        {
+            "name": "David de Boer",
+            "email": "david@ddeboer.nl"
+        },
+        {
+            "name": "Markus Bachmann",
+            "email": "markus.bachmann@bachi.biz"
+        },
+        {
+            "name": "Márk Sági-Kazár",
+            "email": "mark.sagikazar@gmail.com"
+        },
+        {
+            "name": "Community contributors",
+            "homepage": "https://github.com/portphp/xml-adapter/graphs/contributors"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/portphp/portphp/issues",
+        "source": "https://github.com/portphp/xml-adapter",
+        "docs": "https://portphp.readthedocs.org"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "portphp/portphp": "^1.0@dev",
+        "ext-xmlwriter": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Port\\Xml\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.2",
+        "henrikbjorn/phpspec-code-coverage" : "^1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

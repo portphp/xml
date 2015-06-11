@@ -1,0 +1,10 @@
+suites:
+  xml_suite:
+    namespace: Port\Xml
+    psr4_prefix: Port\Xml
+formatter.name: pretty
+extensions:
+  - PhpSpec\Extension\CodeCoverageExtension
+code_coverage:
+  format: clover
+  output: coverage.clover

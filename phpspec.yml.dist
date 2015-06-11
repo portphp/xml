@@ -1,0 +1,5 @@
+suites:
+  xml_suite:
+    namespace: Port\Xml
+    psr4_prefix: Port\Xml
+formatter.name: pretty
