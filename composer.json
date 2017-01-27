@@ -1,5 +1,5 @@
 {
-    "name": "portphp/xml-adapter",
+    "name": "portphp/xml",
     "description": "XML writer for Port",
     "license": "MIT",
     "homepage": "https://github.com/portphp",
