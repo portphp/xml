@@ -1,9 +1,9 @@
 # portphp/xml-adapter
 
-[![Latest Version](https://img.shields.io/github/release/portphp/xml-adapter.svg?style=flat-square)](https://github.com/portphp/xml-adapter/releases)
-[![Build Status](https://travis-ci.org/portphp/xml-adapter.svg)](https://travis-ci.org/portphp/xml-adapter)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/portphp/xml-adapter/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/portphp/xml-adapter/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/portphp/xml-adapter/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/portphp/xml-adapter/?branch=master)
+[![Latest Version](https://img.shields.io/github/release/portphp/xml.svg?style=flat-square)](https://github.com/portphp/xml/releases)
+[![Build Status](https://travis-ci.org/portphp/xml.svg)](https://travis-ci.org/portphp/xml)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/portphp/xml/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/portphp/xml/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/portphp/xml/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/portphp/xml/?branch=master)
 
 XML writer for Port.
 
@@ -13,7 +13,7 @@ Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this package:
 
 ```bash
-$ composer require portphp/xml-adapter
+$ composer require portphp/xml
 ```
 
 This command requires you to have Composer installed globally, as explained
@@ -31,7 +31,7 @@ Please report issues and request features at https://github.com/portphp/portphp/
 ## Contributing
 
 Contributions are very welcome. Please see [CONTRIBUTING.md](CONTRIBUTING.md) for
-details. Thanks to [everyone who has contributed](https://github.com/portphp/xml-adapter/graphs/contributors)
+details. Thanks to [everyone who has contributed](https://github.com/portphp/xml/graphs/contributors)
 already.
 
 ## Security
