@@ -64,7 +64,7 @@ class XmlWriter implements Writer, FlushableWriter
     /**
      * {@inheritdoc}
      */
-    public function prepare()
+    public function prepare(): void
     {
         $this->xmlWriter->openUri($this->file);
         $this->xmlWriter->startDocument($this->version, $this->encoding);
@@ -74,7 +74,7 @@ class XmlWriter implements Writer, FlushableWriter
     /**
      * {@inheritdoc}
      */
-    public function writeItem(array $item)
+    public function writeItem(array $item): void
     {
         $this->xmlWriter->startElement($this->itemElement);
 
@@ -88,7 +88,7 @@ class XmlWriter implements Writer, FlushableWriter
     /**
      * {@inheritdoc}
      */
-    public function finish()
+    public function finish(): void
     {
         $this->xmlWriter->endElement();
         $this->xmlWriter->endDocument();
@@ -98,7 +98,7 @@ class XmlWriter implements Writer, FlushableWriter
     /**
      * {@inheritdoc}
      */
-    public function flush()
+    public function flush(): void
     {
         $this->xmlWriter->flush();
     }

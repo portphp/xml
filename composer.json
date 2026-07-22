@@ -18,18 +18,18 @@
         },
         {
             "name": "Community contributors",
-            "homepage": "https://github.com/portphp/xml-adapter/graphs/contributors"
+            "homepage": "https://github.com/portphp/xml/graphs/contributors"
         }
     ],
     "support": {
         "issues": "https://github.com/portphp/portphp/issues",
-        "source": "https://github.com/portphp/xml-adapter",
-        "docs": "https://portphp.readthedocs.org"
+        "source": "https://github.com/portphp/xml",
+        "docs": "https://portphp.readthedocs.io"
     },
     "require": {
-        "php": ">=5.4.0",
-        "portphp/portphp": "^1.0.0",
-        "ext-xmlwriter": "*"
+        "php": "^8.2",
+        "ext-xmlwriter": "*",
+        "portphp/portphp": "^2.0"
     },
     "autoload": {
         "psr-4": {
@@ -37,8 +37,7 @@
         }
     },
     "require-dev": {
-        "phpspec/phpspec": "^2.2",
-        "henrikbjorn/phpspec-code-coverage" : "^1.0"
+        "phpspec/phpspec": "^8.0"
     },
     "extra": {
         "branch-alias": {
